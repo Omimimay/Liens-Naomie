@@ -1,8 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>Redirection vers e-mail</title>
+  <meta charset="UTF-8">
+  <title>Test suivi avec Matomo</title>
+
   <!-- Matomo -->
   <script>
     var _paq = window._paq = window._paq || [];
@@ -11,15 +12,19 @@
     (function() {
       var u="https://testnaomie.matomo.cloud/";
       _paq.push(['setTrackerUrl', u+'matomo.php']);
-      _paq.push(['setSiteId', '1']);
+      _paq.push(['setSiteId', '1']); 
       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
       g.async=true; g.src='https://cdn.matomo.cloud/testnaomie.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
     })();
   </script>
-  <!-- Fin Matomo -->
+  <!-- End Matomo Code -->
+
 </head>
 <body>
   <h1>Bonjour, test de redirection</h1>
   <p>Si vous voyez cette page, c’est que ça marche ✅</p>
+
+  <!-- Exemple de lien à suivre -->
+  <a href="https://google.com" target="_blank">Clique ici (test)</a>
 </body>
 </html>
